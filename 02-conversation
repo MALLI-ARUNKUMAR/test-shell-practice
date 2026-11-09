@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "arun::hi kumar how are you"
+echo "kumar::i am fine arun how are you"
+echo "arun::i am also fine kumar"
+echo "kumar::what are you doing arun"
