@@ -5,7 +5,7 @@ LOGS_FOLDER="/var/log/shell-scripts"
 LOGS_FILE="/var/log/shell-scripts/$0.log"
 
 if [ $user_id -ne 0 ] ; then
-    echo "you are not root user. Please run the script as root user"
+    echo "you are not root user. Please run the script as root user" | tee -a $LOGS_FILE
     exit 1
 fi
 mkdir -p $LOGS_FOLDER
