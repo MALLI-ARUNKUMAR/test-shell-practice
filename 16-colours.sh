@@ -31,8 +31,8 @@ do
     if [ $? -ne 0 ]; then
         echo "$package is not $B installed, installing now"
         dnf install $package -y &>> $LOGS_FILE
-        VALIDATE $? " $package $G installation"
+        VALIDATE $? -e " $package $G installation $N"
     else
-        echo "$package is already $Y installed skipping"
+        echo  -e "$package is already $Y installed $N skipping"
     fi
 done
