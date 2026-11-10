@@ -7,7 +7,7 @@ echo "present directory: $PWD"
 echo "who is running the script: $USER"
 echo "home directory of the current user: $HOME"
 echo "PID of the current script: $$"
-sleep100 &
+sleep 100 &
 echo "PID of the last background process: $!"
 echo "all the arguments passed to the script: $*"
 
