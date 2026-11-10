@@ -8,7 +8,7 @@ echo "sum is $sum"
 
 fruits=("apple" "banana" "mango" "grapes")
 echo "all fruits ${fruits[@]}"
-echo "first fruit projection ${fruits[0]}"
-echo "second fruit projection ${fruits[1]}"
-echo "third fruit projection ${fruits[2]}"
-echo "fourth fruit projection ${fruits[3]}"
+echo "first fruit pojection ${fruits[0]}"
+echo "second fruit pojection ${fruits[1]}"
+echo "third fruit pojection ${fruits[2]}"
+echo "fourth fruit pojection ${fruits[3]}"
