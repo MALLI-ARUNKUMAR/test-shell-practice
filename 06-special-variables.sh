@@ -9,5 +9,5 @@ echo "home directory of the current user: $HOME"
 echo "PID of the current script: $$"
 sleep100 &
 echo "PID of the last background process: $!"
-
+echo "all the arguments passed to the script: $*"
 
