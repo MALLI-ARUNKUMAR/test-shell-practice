@@ -7,8 +7,8 @@ echo "sum is $sum"
 ##arrays##
 
 fruits=("apple" "banana" "mango" "grapes")
-echo "all fruits ${fruits[@]}"
-echo "first fruit pojection ${fruits[0]}"
-echo "second fruit pojection ${fruits[1]}"
-echo "third fruit pojection ${fruits[2]}"
-echo "fourth fruit pojection ${fruits[3]}"
+echo "all fruits: ${fruits[@]}"
+echo "first fruit pojection: ${fruits[0]}"
+echo "second fruit pojection: ${fruits[1]}"
+echo "third fruit pojection: ${fruits[2]}"
+echo "fourth fruit pojection: ${fruits[3]}"
