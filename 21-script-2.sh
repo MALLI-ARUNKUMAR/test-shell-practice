@@ -2,6 +2,6 @@
 
 COUNTRY=UAE
 
-echo"Country is $COUNTRY"
+echo "Country is $COUNTRY"
 
-echo" PID of the script:$$"
+echo " PID of the script:$$"
