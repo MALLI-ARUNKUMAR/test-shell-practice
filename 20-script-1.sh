@@ -6,4 +6,4 @@ echo "Country is: $COUNTRY"
 
 echo " PID of the script: $$"
 
-sh 21-script-2.sh
+source ./ 21-script-2.sh
