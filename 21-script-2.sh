@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COUNTRY=UAE
+
 
 echo "Country is $COUNTRY"
 
