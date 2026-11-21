@@ -14,5 +14,5 @@ delete_the_file=$(find $log_folder -type f  -mtime +14)
 while IFS= read -r line; 
 do
     echo "delete_the_files $line" 
-    rm -r $delete_the_file  
+    rm -f $delete_the_file  
 done <<< "$delete_the_file" 
