@@ -9,10 +9,14 @@ Y="\e[33m"
 B="\e[34m"
 N="\e[0m"
 
+if [ ! $log_folder ]; then
+    echo " $log_folder doesnot exist"
+fi    
+
 delete_the_file=$(find $log_folder -type f  -mtime +14) 
 
 while IFS= read -r line; 
 do
     echo "delete_the_files $line" 
-    rm -f $delete_the_file  
+    rm -f $line  
 done <<< "$delete_the_file" 
