@@ -9,6 +9,10 @@ Y="\e[33m"
 B="\e[34m"
 N="\e[0m"
 
-delete_the_file=$(find $log_folder -type f  -mtime +14)
+delete_the_file=$(find $log_folder -type f  -mtime +14) &>>$log_file
 
-echo "$delete_the_file"
+while IFS= read -r line; &>>$log_file
+do
+    echo "delete_the_files $line" &>>$log_file
+    rm -r $delete_the_file  &>>$log_file
+done <<< "$delete_the_file" &>>$log_file
