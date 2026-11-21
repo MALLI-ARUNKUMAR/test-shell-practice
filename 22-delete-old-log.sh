@@ -9,6 +9,6 @@ Y="\e[33m"
 B="\e[34m"
 N="\e[0m"
 
-delete_the_file=(find /home/ec2-user/app-log -type f  -mtime +14)
+delete_the_file=(find $log_folder -type f  -mtime +14)
 
 echo "$delete_the_file"
